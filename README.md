@@ -29,9 +29,8 @@ This project showcases a range of fractals, rendered with MinilibX in C.
 - `./fract-ol burn`
 
 ## Julia set special arguments
-- The Julia set can take 2 values to modify its shape
-This values must lands between [-2.0;2.0]
-Inputing no values will result in the default Julia shape
+- The Julia set can take 2 values to modify its shape, this values must lands between [-2.0;2.0]
+- Inputing no values will result in the default Julia shape
 
 ## Installation
 - `make` in directory (require gcc)
