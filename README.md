@@ -20,18 +20,18 @@ This project showcases a range of fractals, rendered with MinilibX in C.
 - mouse wheel down : zoom out (center wise)
 - `tab` : switch sets
 - `shift` : shift colors
-  
+
+## Usage
+- Program needs an argument (the set name) to start:
+- `./fract-ol mandelbrot`
+- `./fract-ol julia`
+- `./fract-ol tricorn`
+- `./fract-ol burn`
+
 ## Julia set special arguments
 - The Julia set can take 2 values to modify its shape
 This values must lands between [-2.0;2.0]
 Inputing no values will result in the default Julia shape
-
-## Usage
-- Program needs an argument (the set name) to start:
-- - `./fract-ol mandelbrot`
-- `./fract-ol julia`
-- `./fract-ol tricorn`
-- `./fract-ol burn`
 
 ## Installation
 - `make` in directory (require gcc)
