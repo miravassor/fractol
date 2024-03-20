@@ -4,6 +4,8 @@
 Fract'ol is a project developed as part of the 42 school curriculum, aiming to introduce students to 2D programming and the world of fractals. 
 This project showcases a range of fractals, rendered with MinilibX in C.
 
+![Burning Ship Fractal](/img/preview.png)
+
 ## Features
 - **Mandelbrot Set**
 - **Julia Set**
