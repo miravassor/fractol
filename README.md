@@ -2,15 +2,15 @@
 
 ## Overview
 Fract'ol is a project developed as part of the 42 school curriculum, aiming to introduce students to 2D programming and the world of fractals. 
-Utilizing the minilibX graphics library, this project showcases a range of fractals, rendered with MinilibX in C.
+This project showcases a range of fractals, rendered with MinilibX in C.
 
 ## Features
 - **Mandelbrot Set**
 - **Julia Set**
 - **Tricorn Fractal**
 - **Burning Ship Fractal**
-- **Interactive Controls:** Zoom in/out, shift colors.
-- **MinilibX Integration:** Leveraging the lightweight minilibX library for creating graphical interfaces on macOS and Linux.
+- **Interactive Controls:** Zoom in/out, move around, shift colors.
+- **MinilibX Integration:** Leveraging the lightweight minilibX library for creating graphical interfaces on Linux.
 
 ## Commands
 - `+` : zoom in
@@ -25,9 +25,15 @@ Utilizing the minilibX graphics library, this project showcases a range of fract
 - The Julia set can take 2 values to modify its shape
 This values must lands between [-2.0;2.0]
 Inputing no values will result in the default Julia shape
-ex : `./fract-ol julia -2 1.5` or `./fract-ol mandelbrot`
+
+## Usage
+- Program needs an argument (the set name) to start:
+- - `./fract-ol mandelbrot`
+- `./fract-ol julia`
+- `./fract-ol tricorn`
+- `./fract-ol burn`
 
 ## Installation
-- `make` in directory
+- `make` in directory (require gcc)
 
 
