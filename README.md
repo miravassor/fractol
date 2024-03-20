@@ -1,4 +1,4 @@
-# Fract'ol
+# Fract'ol (with bonus)
 
 ## Overview
 Fract'ol is a project developed as part of the 42 school curriculum, aiming to introduce students to 2D programming and the world of fractals. 
